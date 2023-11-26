@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="sort_by_title">Алфавит</string>
+    <string name="sort_by_date">Дата</string>
+    <string name="sort_by_color">Цвет</string>
+    <string name="sort_descending">По убыванию</string>
+    <string name="sort_ascending">По возрастанию</string>
+
+    <string name="action_delete">Удалить заметку</string>
+    <string name="action_add_note">Создать заметку</string>
+    <string name="action_save_note">Сохранить заметку</string>
+    <string name="app_headline">Ваши заметки</string>
+    <string name="action_sort">Сортировать по…</string>
+    <string name="message_note_deleted">Заметка удалена</string>
+    <string name="action_undo_deletion">Отменить</string>
+    <string name="edit_note_title_hint">Выберите название</string>
+    <string name="edit_note_content_hint">Что вы хотите записать?</string>
+    <string name="invalid_note_title">Заголовок не может быть пустым!</string>
+    <string name="invalid_note_content">Заметка не может быть пустой!</string>
+
+</resources>

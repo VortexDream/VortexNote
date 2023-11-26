@@ -7,13 +7,16 @@ import com.vortex.android.vortexnote.feature_note.domain.util.SortBy
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 
+//Фича получения списка замето из базы данных
 class GetNotes(
     private val repository: NoteRepository
 ) {
 
+    //invoke() и простой вызов функции равноценны
     operator fun invoke(
         sortBy: SortBy = SortBy.Date(OrderType.Descending)
     ): Flow<List<Note>> {
+
         return repository.getNotes().map { notes ->
             when(sortBy.orderType) {
                 is OrderType.Ascending -> {

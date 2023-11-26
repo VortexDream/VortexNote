@@ -1,3 +1,24 @@
 <resources>
-    <string name="app_name">VortexNote</string>
+    <string name="app_name" translatable="false">VortexNote</string>
+
+    <string name="sort_by_title">Title</string>
+    <string name="sort_by_date">Date</string>
+    <string name="sort_by_color">Color</string>
+    <string name="sort_descending">Descending</string>
+    <string name="sort_ascending">Ascending</string>
+
+    <string name="action_delete">Delete note</string>
+    <string name="action_add_note">Add note</string>
+    <string name="action_save_note">Save note</string>
+    <string name="app_headline">Your notes</string>
+    <string name="action_sort">Sort by…</string>
+    <string name="message_note_deleted">Note deleted</string>
+    <string name="action_undo_deletion">Undo</string>
+    <string name="edit_note_title_hint">Choose a title</string>
+    <string name="edit_note_content_hint">Enter note\'s content</string>
+    <string name="invalid_note_title">Note\'s title can\'t be empty</string>
+    <string name="invalid_note_content">Note\'s content can\'t be empty</string>
+
+    <string name="invalid_string" translatable="false">Error</string>
+    <string name="invalid_note_message_hint" translatable="false">Error</string>
 </resources>
