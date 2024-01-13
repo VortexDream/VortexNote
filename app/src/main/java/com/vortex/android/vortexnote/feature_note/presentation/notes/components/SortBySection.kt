@@ -32,13 +32,13 @@ fun SortBySection(
                 selected = sortBy is SortBy.Title,
                 onSelect = { onSortingChange(SortBy.Title(sortBy.orderType)) }
             )
-            Spacer(modifier = Modifier.width(8.dp))
+            Spacer(modifier = Modifier.width(4.dp))
             DefaultRadioButton(
                 text = stringResource(R.string.sort_by_date),
                 selected = sortBy is SortBy.Date,
                 onSelect = { onSortingChange(SortBy.Date(sortBy.orderType)) }
             )
-            Spacer(modifier = Modifier.width(8.dp))
+            Spacer(modifier = Modifier.width(4.dp))
             DefaultRadioButton(
                 text = stringResource(R.string.sort_by_color),
                 selected = sortBy is SortBy.Color,

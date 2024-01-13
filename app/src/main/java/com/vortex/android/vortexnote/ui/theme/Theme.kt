@@ -14,7 +14,7 @@ private val DarkColorPalette = darkColors(
 )
 
 @Composable
-fun VortexNoteAppTheme(content: @Composable () -> Unit) {
+fun VortexNoteAppTheme(darkTheme: Boolean = true, content: @Composable () -> Unit) {
     MaterialTheme(
         colors = DarkColorPalette,
         typography = Typography,
